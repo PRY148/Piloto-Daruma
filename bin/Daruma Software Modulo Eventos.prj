@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>Daruma Software Modulo Eventos</name>
+   <tag></tag>
+   <UUID>95b2bff6-ada6-4349-ab5b-8bc15644126d</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Eventos_Danios" time="126" tests="5" failures="0" errors="0">
+   <testsuite name="Eventos_Danios" tests="5" failures="0" errors="0" time="126" timestamp="2019-03-05 17:11:03" hostname="Jessica - INFORMATICA" id="Test Suites/Eventos_Danios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jessica\\Katalon Studio\\Daruma Software Modulo Eventos\\Reports\\Eventos_Danios\\20190305_171101"/>
+         <property name="logFiles" value="C:\\Users\\Jessica\\Katalon Studio\\Daruma Software Modulo Eventos\\Reports\\Eventos_Danios\\20190305_171101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jessica - INFORMATICA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="74a6f1f2df9bcab17711ccca173c6d76"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/1.Configuraciones/2.Danios/1.Crear" classname="Test Cases/1.Configuraciones/2.Danios/1.Crear" status="PASSED">
+         <system-out><![CDATA[2019-03-05 17:11:04 - [TEST_CASE][PASSED] - Test Cases/1.Configuraciones/2.Danios/1.Crear: Test Cases/1.Configuraciones/2.Danios/1.Crear
+
+2019-03-05 17:11:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login_AccesoModulo' successfully
+
+2019-03-05 17:11:04 - [TEST_CASE][PASSED] - Test Cases/Login_AccesoModulo: Test Cases/Login_AccesoModulo
+
+2019-03-05 17:11:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-03-05 17:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 17:11:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-03-05 17:11:18 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-03-05 17:11:18 - [TEST_STEP][PASSED] - setText: Text 'Tester4' is set on object 'Object Repository/Login/USER'
+
+2019-03-05 17:11:19 - [MESSAGE][PASSED] - Text 'Tester4' is set on object 'Object Repository/Login/USER'
+
+2019-03-05 17:11:19 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/PASSWORD'
+
+2019-03-05 17:11:19 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/PASSWORD'
+
+2019-03-05 17:11:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-03-05 17:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-03-05 17:11:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-03-05 17:11:25 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-03-05 17:11:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnModulos' is clicked on
+
+2019-03-05 17:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnModulos' is clicked on
+
+2019-03-05 17:11:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnEventos' is clicked on
+
+2019-03-05 17:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnEventos' is clicked on
+
+2019-03-05 17:11:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login_AccesoModulo' successfully
+
+2019-03-05 17:11:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:27 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last > a > span.pull-right-container").click();' successfully
+
+2019-03-05 17:11:27 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last > a > span.pull-right-container").click();' successfully
+
+2019-03-05 17:11:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:29 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(18) > a").click();' successfully
+
+2019-03-05 17:11:29 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(18) > a").click();' successfully
+
+2019-03-05 17:11:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:11:34 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:11:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:36 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_self_none").click();' successfully
+
+2019-03-05 17:11:36 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_self_none").click();' successfully
+
+2019-03-05 17:11:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:38 - [TEST_STEP][PASSED] - setText: Text 'Ejecutando una nueva prueba' is set on object 'Object Repository/1.Configuracion/2.Danios/Crear/inputNombre'
+
+2019-03-05 17:11:38 - [MESSAGE][PASSED] - Text 'Ejecutando una nueva prueba' is set on object 'Object Repository/1.Configuracion/2.Danios/Crear/inputNombre'
+
+2019-03-05 17:11:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:40 - [TEST_STEP][PASSED] - setText: Text 'Ejecucion Maestra...' is set on object 'Object Repository/1.Configuracion/2.Danios/Crear/textareaDescripcion'
+
+2019-03-05 17:11:40 - [MESSAGE][PASSED] - Text 'Ejecucion Maestra...' is set on object 'Object Repository/1.Configuracion/2.Danios/Crear/textareaDescripcion'
+
+2019-03-05 17:11:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:42 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:11:42 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:11:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:44 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:11:44 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:11:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-03-05 17:11:47 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.Configuraciones/2.Danios/2.Ver" classname="Test Cases/1.Configuraciones/2.Danios/2.Ver" status="PASSED">
+         <system-out><![CDATA[2019-03-05 17:11:47 - [TEST_CASE][PASSED] - Test Cases/1.Configuraciones/2.Danios/2.Ver: Test Cases/1.Configuraciones/2.Danios/2.Ver
+
+2019-03-05 17:11:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:11:53 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:11:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:55 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:11:55 - [MESSAGE][PASSED] - Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:11:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(2)").click();' successfully
+
+2019-03-05 17:11:57 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(2)").click();' successfully
+
+2019-03-05 17:11:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:11:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:11:59 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:11:59 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:11:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.Configuraciones/2.Danios/3.Inhabilitar" classname="Test Cases/1.Configuraciones/2.Danios/3.Inhabilitar" status="PASSED">
+         <system-out><![CDATA[2019-03-05 17:12:01 - [TEST_CASE][PASSED] - Test Cases/1.Configuraciones/2.Danios/3.Inhabilitar: Test Cases/1.Configuraciones/2.Danios/3.Inhabilitar
+
+2019-03-05 17:12:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:12:05 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:12:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:07 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:07 - [MESSAGE][PASSED] - Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:09 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > a").click();' successfully
+
+2019-03-05 17:12:09 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > a").click();' successfully
+
+2019-03-05 17:12:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:11 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > ul > li > a").click();' successfully
+
+2019-03-05 17:12:11 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > ul > li > a").click();' successfully
+
+2019-03-05 17:12:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:13 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-03-05 17:12:13 - [MESSAGE][PASSED] - Alert accepted
+
+2019-03-05 17:12:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-03-05 17:12:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-05 17:12:23 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:23 - [MESSAGE][PASSED] - Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:25 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(3)").click();' successfully
+
+2019-03-05 17:12:25 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(3)").click();' successfully
+
+2019-03-05 17:12:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:27 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#event_injury_level_state").click();' successfully
+
+2019-03-05 17:12:27 - [MESSAGE][PASSED] - Execute JavaScript '$("#event_injury_level_state").click();' successfully
+
+2019-03-05 17:12:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:29 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:12:29 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:12:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:31 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:12:31 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:12:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-03-05 17:12:34 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.Configuraciones/2.Danios/4.Editar" classname="Test Cases/1.Configuraciones/2.Danios/4.Editar" status="PASSED">
+         <system-out><![CDATA[2019-03-05 17:12:34 - [TEST_CASE][PASSED] - Test Cases/1.Configuraciones/2.Danios/4.Editar: Test Cases/1.Configuraciones/2.Danios/4.Editar
+
+2019-03-05 17:12:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:12:39 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:12:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:41 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:41 - [MESSAGE][PASSED] - Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:12:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:43 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(3)").click();' successfully
+
+2019-03-05 17:12:43 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(3)").click();' successfully
+
+2019-03-05 17:12:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:45 - [TEST_STEP][PASSED] - setText: Text 'Ejecutando la edicion del registro...' is set on object 'Object Repository/1.Configuracion/2.Danios/Editar/inputNombre'
+
+2019-03-05 17:12:45 - [MESSAGE][PASSED] - Text 'Ejecutando la edicion del registro...' is set on object 'Object Repository/1.Configuracion/2.Danios/Editar/inputNombre'
+
+2019-03-05 17:12:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:47 - [TEST_STEP][PASSED] - setText: Text 'Execute para Universitarios...' is set on object 'Object Repository/1.Configuracion/2.Danios/Editar/textareaDescripcion'
+
+2019-03-05 17:12:47 - [MESSAGE][PASSED] - Text 'Execute para Universitarios...' is set on object 'Object Repository/1.Configuracion/2.Danios/Editar/textareaDescripcion'
+
+2019-03-05 17:12:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:49 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:12:49 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_content > div > form > ul > li:nth-child(3) > input").click();' successfully
+
+2019-03-05 17:12:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:51 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:12:51 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:12:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-03-05 17:12:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.Configuraciones/2.Danios/5.Eliminar" classname="Test Cases/1.Configuraciones/2.Danios/5.Eliminar" status="PASSED">
+         <system-out><![CDATA[2019-03-05 17:12:54 - [TEST_CASE][PASSED] - Test Cases/1.Configuraciones/2.Danios/5.Eliminar: Test Cases/1.Configuraciones/2.Danios/5.Eliminar
+
+2019-03-05 17:12:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:12:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:12:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:13:00 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/event_injury?related_module=event' successfully
+
+2019-03-05 17:13:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:13:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:13:02 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:13:02 - [MESSAGE][PASSED] - Execute JavaScript '$("#items_4").click();' successfully
+
+2019-03-05 17:13:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:13:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:13:04 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_various_confirm_standar").click();' successfully
+
+2019-03-05 17:13:04 - [MESSAGE][PASSED] - Execute JavaScript '$("body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_various_confirm_standar").click();' successfully
+
+2019-03-05 17:13:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-03-05 17:13:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-05 17:13:06 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-03-05 17:13:06 - [MESSAGE][PASSED] - Alert accepted
+
+2019-03-05 17:13:06 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:13:06 - [MESSAGE][PASSED] - Execute JavaScript '$("#sf_admin_footer > ul > li.sf_admin_action_list > a").click();' successfully
+
+2019-03-05 17:13:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-03-05 17:13:09 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 17:11:03 - [TEST_SUITE][PASSED] - Eventos_Danios: Test Cases/1.Configuraciones/2.Danios/5.Eliminar]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

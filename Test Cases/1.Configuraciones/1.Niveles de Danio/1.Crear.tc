@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.Crear</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd665829-d49e-4ecd-a76f-30db54da2028</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('1.Configuracion/1.Niveles de Danio/spanConfiguracion')</defaultValue>
+      <description></description>
+      <id>3a42750d-f24d-4b8b-8e4c-08116b7f0e23</id>
+      <masked>false</masked>
+      <name>spanAbrirConfiguraciones</name>
+   </variable>
+</TestCaseEntity>

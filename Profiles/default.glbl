@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li.last > a&quot;).click();'</initValue>
+      <name>clickBtn1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(18) > a&quot;).click();'</initValue>
+      <name>clickBtn2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(17) > a&quot;).click();'</initValue>
+      <name>clickBtn3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Esta variable se puede cambiar, solo se debe de especificar que Item va a seleccionar</description>
+      <initValue>'$(&quot;#items_21&quot;).click();'</initValue>
+      <name>inputItem</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last > a > span.pull-right-container&quot;).click();'</initValue>
+      <name>spanAbrirConfiguracionn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(3)&quot;).click();'</initValue>
+      <name>btnEditarGeneralPrueba</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#sf_admin_content > div > form > ul > li:nth-child(3) > input&quot;).click();'</initValue>
+      <name>btnGuardarGeneralPrueba</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_self_none&quot;).click();'</initValue>
+      <name>btnCrearGeneralPrueba</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a.btn.btn-primary.btn-circle.btn-sm.tq_various_confirm_standar&quot;).click();'</initValue>
+      <name>btnEliminarGeneralPrueba</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > a:nth-child(2)&quot;).click();'</initValue>
+      <name>btnMostrarGeneralPrueba</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#sf_admin_content > div > form > ul > li:nth-child(2) > a&quot;).click();'</initValue>
+      <name>btnRegresarEditar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > a&quot;).click();'</initValue>
+      <name>btnInhabilitarGeneral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > div.content-wrapper > section.content-header > div.header-actions > div > div > ul > li > a&quot;).click();'</initValue>
+      <name>btnDesabilitarGeneral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#event_injury_level_state&quot;).click();'</initValue>
+      <name>checkActivarGeneral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#event_injury_state&quot;).click();'</initValue>
+      <name>checkActivar2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#event_diagnosis_main_condition&quot;).click();'</initValue>
+      <name>checkCondicionPrincipalDiagnosticos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#event_diagnosis_state&quot;).click();'</initValue>
+      <name>checkActivar3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(16) > a&quot;).click();'</initValue>
+      <name>clickBtn4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#event_conductive_priority_require_action&quot;).click();'</initValue>
+      <name>checkRequiredAction</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(15) > a&quot;).click();'</initValue>
+      <name>clickBtn5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#sf_admin_content > div > form > ul > li.sf_admin_action_none > a&quot;).click();'</initValue>
+      <name>btnRegresarCrear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#supply_type_state&quot;).click();'</initValue>
+      <name>checkActivarTypeInsumo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(14) > a&quot;).click();'</initValue>
+      <name>clickBtn6</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#supply_base_state&quot;).click();'</initValue>
+      <name>checkActivarInsumos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;body > div.wrapper > aside > div > section > ul > li.treeview.active.first.last > ul > li.last.active > ul > li:nth-child(13) > a&quot;).click();'</initValue>
+      <name>clickBtn7</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$(&quot;#add_document_file&quot;).click();'</initValue>
+      <name>btnAnadirAdjuntoCrear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Para escoger Masculino, solo es cambiar la F por la M en la funcion Javascript </description>
+      <initValue>'$(&quot;#event_base_patient_gender_F&quot;).click();'</initValue>
+      <name>inputClickGeneroEventos</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

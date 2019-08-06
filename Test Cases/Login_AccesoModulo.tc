@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_AccesoModulo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bd8c971-bac7-49f2-837a-1c7fed19236f</testCaseGuid>
+   <variable>
+      <defaultValue>'http://54.203.130.100:8106/app_mysql.php/'</defaultValue>
+      <description></description>
+      <id>8bc465c0-b770-4f9d-b891-6d057e30963d</id>
+      <masked>false</masked>
+      <name>URL_BASE</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tester4'</defaultValue>
+      <description></description>
+      <id>26bc46e5-4968-4a89-8aa7-25483f3dfd7e</id>
+      <masked>false</masked>
+      <name>USER</name>
+   </variable>
+   <variable>
+      <defaultValue>'c4m1n0'</defaultValue>
+      <description></description>
+      <id>b684d54b-b695-4b7d-b9b3-21046b236036</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>
